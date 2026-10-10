@@ -1,0 +1,24 @@
+{
+  "name": "universal-modder",
+  "version": "0.2.0",
+  "description": "用 AI agent 改造你拥有的几乎任何游戏：引擎侦察、逆向工程、fal 生成的美术/3D/音频、游戏内实测、展示视频，以及记录各游戏改造方法的共享知识库。",
+  "author": {
+    "name": "Rehan",
+    "url": "https://github.com/rehan-remade"
+  },
+  "keywords": [
+    "game-modding",
+    "modding",
+    "reverse-engineering",
+    "knowledge-base",
+    "tmodloader",
+    "bepinex",
+    "ue4ss",
+    "fal",
+    "sprites",
+    "game-assets",
+    "mcp",
+    "agent-skills"
+  ],
+  "logo": "docs/media/logo.png"
+}

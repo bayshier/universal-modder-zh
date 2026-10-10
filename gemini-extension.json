@@ -1,0 +1,22 @@
+{
+  "name": "universal-modder",
+  "version": "0.2.0",
+  "description": "用 AI agent 改造你拥有的几乎任何游戏：引擎侦察、逆向工程、fal 生成的美术/3D/音频、游戏内实测、展示视频，以及记录各游戏改造方法的共享知识库。",
+  "contextFileName": "AGENTS.md",
+  "mcpServers": {
+    "fal": {
+      "httpUrl": "https://mcp.fal.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FAL_KEY}"
+      }
+    }
+  },
+  "settings": [
+    {
+      "name": "fal API key",
+      "description": "fal 的密钥（https://fal.ai/dashboard/keys）：供 MCP 服务器与 `um fal` 生成素材。",
+      "envVar": "FAL_KEY",
+      "sensitive": true
+    }
+  ]
+}

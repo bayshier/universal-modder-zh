@@ -1,0 +1,49 @@
+{
+  "name": "universal-modder",
+  "version": "0.2.0",
+  "description": "用 AI agent 改造你拥有的几乎任何游戏：引擎侦察、逆向工程、fal 生成的美术/3D/音频、游戏内实测、展示视频，以及记录各游戏改造方法的共享知识库。",
+  "author": {
+    "name": "Rehan",
+    "url": "https://github.com/rehan-remade"
+  },
+  "homepage": "https://github.com/rehan-remade/universal-modder",
+  "repository": "https://github.com/rehan-remade/universal-modder",
+  "license": "MIT",
+  "keywords": [
+    "game-modding",
+    "modding",
+    "reverse-engineering",
+    "knowledge-base",
+    "tmodloader",
+    "bepinex",
+    "ue4ss",
+    "fal",
+    "sprites",
+    "game-assets",
+    "mcp",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "universal-modder",
+    "shortDescription": "改造你拥有的任意游戏",
+    "longDescription": "用 AI agent 改造你拥有的几乎任何游戏：引擎侦察、逆向工程、fal 生成的美术/3D/音频、游戏内实测、展示视频，以及记录各游戏改造方法的共享知识库。",
+    "developerName": "Rehan",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/rehan-remade/universal-modder",
+    "defaultPrompt": [
+      "\u6539\u9020\u8fd9\u4e2a\u6e38\u620f\uff1a\u7528 fal \u751f\u6210\u7684\u7cbe\u7075\u56fe\u52a0\u4e00\u628a\u65b0\u6b66\u5668",
+      "\u8fd9\u4e2a\u6e38\u620f\u662f\u4ec0\u4e48\u5f15\u64ce\uff1f\u5927\u5bb6\u90fd\u662f\u600e\u4e48\u6539\u5b83\u7684\uff1f",
+      "\u5728\u6e38\u620f\u6539\u9020\u77e5\u8bc6\u5e93\u91cc\u641c\u7d22\u8fd9\u4e2a\u6e38\u620f"
+    ],
+    "brandColor": "#FF3CD2",
+    "composerIcon": "./docs/media/logo-128.png",
+    "logo": "./docs/media/logo.png",
+    "screenshots": []
+  }
+}
